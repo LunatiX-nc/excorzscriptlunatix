@@ -3,11 +3,11 @@ clear
 
 REPO="https://raw.githubusercontent.com/LunatiX-nc/excorzscriptlunatix/main/"
 
-wget -q -O /etc/systemd/system/killvme.service "${REPO}files/killvme.service"
-wget -q -O /etc/systemd/system/killvle.service "${REPO}files/killvle.service"
-wget -q -O /etc/systemd/system/killtro.service "${REPO}files/killtro.service"
-wget -q -O /etc/systemd/system/killssr.service "${REPO}files/killssr.service"
-wget -q -O /etc/systemd/system/killssh.service "${REPO}files/killssh.service"
+wget -q -O /etc/systemd/system/lock-vme.service "${REPO}files/lock-vme.service"
+wget -q -O /etc/systemd/system/lock-vle.service "${REPO}files/lock-vle.service"
+wget -q -O /etc/systemd/system/lock-tro.service "${REPO}files/lock-tro.service"
+wget -q -O /etc/systemd/system/lock-ssr.service "${REPO}files/lock-ssr.service"
+wget -q -O /etc/systemd/system/lock-ssh.service "${REPO}files/lock-ssh.service"
 
 
 

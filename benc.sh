@@ -1,12 +1,7 @@
 #!/usr/bin/env bash
 #
-# Description: A Bench Script by Teddysun
-#
-# Copyright (C) 2015 - 2024 Teddysun <i@teddysun.com>
-# Thanks: LookBack <admin@dwhd.org>
-# URL: https://teddysun.com/444.html
-# https://github.com/teddysun/across/blob/master/bench.sh
-#
+# Copyright (C) 2015 - 2024 Lunatic <i@Luna.com>
+# Thanks: LookBack <admin@hakwnmm.org>
 trap _exit INT QUIT TERM
 
 _red() {

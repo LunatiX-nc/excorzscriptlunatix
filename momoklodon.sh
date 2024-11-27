@@ -356,7 +356,13 @@ mkdir -p /usr/bin/xray
 mkdir -p /var/log/xray
 mkdir -p /var/www/html
 mkdir -p /usr/sbin/local
-
+mkdir -p /usr/bin
+mkdir -p /etc/lunatic/ssh/detail
+mkdir -p /etc/lunatic/vmess/detail
+mkdir -p /etc/lunatic/vless/detail
+mkdir -p /etc/lunatic/trojan/detail
+mkdir -p /etc/lunatic/shadowsocks/detail
+mkdir -p /etc/lunatic/noobzvpns/detail
 touch /etc/xray/domain
 touch /var/log/xray/access.log
 touch /var/log/xray/error.log

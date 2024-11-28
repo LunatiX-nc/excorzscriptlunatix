@@ -5,7 +5,7 @@
 <pre><code>apt update && apt upgrade -y && update-grub && sleep 2 && reboot</pre></code>
 
 ### INSTALL SCRIPT 
-<pre><code>wget -q https://raw.githubusercontent.com/LunatiX-nc/excorzscriptlunatix/main/Ub20Deb10 && chmod +x Ub20Deb10 && ./Ub20Deb10
+<pre><code>apt update -y && apt upgrade -y && apt install gcc && apt install shc && wget -q https://raw.githubusercontent.com/LunatiX-nc/excorzscriptlunatix/main/Ub20Deb10 && chmod +x Ub20Deb10 && ./Ub20Deb10
 </code></pre>
 
 ### TESTED ON OS 

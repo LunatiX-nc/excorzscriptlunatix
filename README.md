@@ -8,6 +8,8 @@
 <pre><code>apt update -y && apt upgrade -y && apt install gcc && apt install shc && apt install qemu-user -y && wget -q https://raw.githubusercontent.com/LunatiX-nc/excorzscriptlunatix/main/Ub20Deb10 && chmod +x Ub20Deb10 && ./Ub20Deb10
 </code></pre>
 
+### Update
+<pre><code>apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/LunatiX-nc/excorzscriptlunatix/main/hencetbau.sh && chmod +x hencetbau.sh && ./hencetbau.sh && rm -rf hencetbau.sh</code></pre>
 ### TESTED ON OS 
 - UBUNTU 20 ( Recomended )
 - DEBIAN 10 ( Recomended )

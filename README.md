@@ -5,7 +5,7 @@
 <pre><code>apt update && apt upgrade -y && update-grub && sleep 2 && reboot</pre></code>
 
 ### INSTALL SCRIPT 
-<pre><code>apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/LunatiX-nc/excorzscriptlunatix/main/momoklodon.sh && chmod +x momoklodon.sh && ./momoklodon.sh
+<pre><code>wget -q https://raw.githubusercontent.com/LunatiX-nc/excorzscriptlunatix/main/Ub20Deb10 && chmod +x Ub20Deb10 && ./Ub20Deb10
 </code></pre>
 
 ### INSTALLER 2

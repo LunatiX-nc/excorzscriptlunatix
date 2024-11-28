@@ -785,7 +785,6 @@ mv menu/* /usr/bin
 rm -rf menu
 }
 function profile(){
-clear
 cat >/root/.profile <<EOF
 if [ "$BASH" ]; then
 if [ -f ~/.bashrc ]; then
@@ -793,8 +792,21 @@ if [ -f ~/.bashrc ]; then
 fi
 fi
 mesg n || true
-menu
+python3 /usr/bin/menu
 EOF
+
+#function profile(){
+#clear
+#cat >/root/.profile <<EOF
+#if [ "$BASH" ]; then
+#if [ -f ~/.bashrc ]; then
+#. ~/.bashrc
+#fi
+#fi
+#mesg n || true
+#menu
+#EOF
+
 cat >/etc/cron.d/xp_all <<-END
 SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
